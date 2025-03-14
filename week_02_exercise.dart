@@ -37,13 +37,25 @@ class Home extends StatelessWidget {
               Container(
                 width: MediaQuery.of(context).size.width / 2,
                 child: Padding(
-                  padding: EdgeInsets.all(30),
+                  padding: EdgeInsets.all(10),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start, 
                     children: [
                       Container(
+                        alignment: Alignment.center,
+                        width: double.infinity,
+                        color: Color.fromARGB(255, 222, 244, 255),
                         child: Text("Strawberry Pavalav")
-                      )                 
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        width: double.infinity,
+                        color: Color.fromARGB(255, 222, 244, 255),
+                        child: Text("Strawberry Pavalav")
+                      ),
                     ]
                   )
                 )
