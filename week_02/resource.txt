@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Nasi Goreng",
+    "img": "https://asset.kompas.com/crops/vmDriSafVxhO05gc2dSOXby53Mc=/13x7:700x465/750x500/data/photo/2021/09/24/614dc6865eb24.jpg"
+  
+  },
+  {
+    "name": "Ayam Goreng",
+    "img":"https://www.astronauts.id/blog/wp-content/uploads/2023/04/Resep-Ayam-Goreng-Serundeng-ala-Rumahan-yang-Nggak-Kalah-Enak-dari-Restoran.jpg"
+
+  },
+  {
+    "name": "Sate Ayam",
+    "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/14053934/Mudah-Dibuat-di-Rumah-Ini-Resep-Sate-Ayam-Bumbu-Kacang-yang-Lezat-.jpg"
+  
+  },
+  {
+    "name": "Mie Goreng",
+    "img": "https://allofresh.id/blog/wp-content/uploads/2023/09/cara-membuat-mie-goreng-4-1-scaled.jpg"
+ 
+  },
+  {
+    "name": "Bakso",
+    "img":"https://awsimages.detik.net.id/community/media/visual/2020/01/03/c993eff2-ea2b-412a-b7ab-69ed1011a2b7_43.jpeg?w=600"
+
+  },
+  {
+    "name": "Nasi Padang",
+    "img":"https://cdn.rri.co.id/berita/1/images/1689391542821-images_(22)/1689391542821-images_(22).jpeg"
+  
+  },
+  {
+    "name": "Gado-gado",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Gado_gado.jpg/1200px-Gado_gado.jpg"
+    },
+  {
+    "name": "Soto Ayam",
+    "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/17043644/Praktis-dan-Simpel-Ini-Resep-Soto-Ayam-Lamongan-yang-Menggugah-Selera-.jpg"
+  
+  },
+  {
+    "name": "Nasi Kuning",
+    "img": "https://www.sasa.co.id/medias/page_medias/nasi_kuning_rice_cooker.jpg"
+  
+  },
+  {
+    "name": "Pizza Margherita",
+    "img": "https://asset.kompas.com/crops/_aMC-HU7taASfMRcywxK5d5RI-o=/17x22:985x667/750x500/data/photo/2022/07/23/62dbd7ac6e943.jpg"
+   
+  }
+]
