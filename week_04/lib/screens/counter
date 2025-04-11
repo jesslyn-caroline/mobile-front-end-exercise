@@ -1,0 +1,82 @@
+class Counter extends StatefulWidget {
+  const Counter ({super.key});
+
+  @override
+  State<Counter> createState() => _Counter();
+}
+
+class _Counter extends State<Counter> {
+
+  TextEditingController textC = TextEditingController();
+
+  int counter = 0;
+
+  void inc() {
+    int n = int.parse(textC.text);
+    setState(() {
+      if (counter + n <= 20) {
+        counter += n;
+      } 
+    });
+  }
+
+  void dec() {
+    int n = int.parse(textC.text);
+    setState(() {
+      if (counter - n >= 0) {
+        counter -= n;
+      } 
+    });
+  }
+
+  @override
+  Widget build (BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            
+            TextField(
+              controller: textC
+            ),
+            SizedBox(height: 10,),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Btn(
+                  label: "-",
+                  act: dec,
+                ),
+                Text("${counter}"),
+                Btn(
+                  label: "+",
+                  act: inc
+                )
+              ]
+            )
+          ]
+        )
+      )
+    );
+  }
+}
+
+class Btn extends StatelessWidget {
+  Btn ({required this.label, required this.act, super.key});
+
+  String label;
+  void Function() act;
+
+  @override
+  Widget build (BuildContext context) {
+    return ElevatedButton(
+      onPressed: () {
+        act();
+      },
+      child: Text("$label")
+    );
+  }
+}
